@@ -1,6 +1,6 @@
 all:
-	gcc server.c csapp.c -o server
-	gcc client.c csapp.c -o client
+	gcc -pthread server.c csapp.c -o server
+	gcc -pthread client.c csapp.c -o client
 
 clean:
 	rm *.exe

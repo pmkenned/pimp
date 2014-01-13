@@ -1,0 +1,20 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared Objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Vim swap files
+*.swp
